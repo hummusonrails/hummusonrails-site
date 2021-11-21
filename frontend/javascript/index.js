@@ -1,3 +1,4 @@
+require('newrelic');
 import "index.css"
 
 // Import all javascript files from src/_components
