@@ -12,6 +12,8 @@ const path = require("path");
 const rootDir = path.resolve(__dirname, "..")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const { WebpackManifestPlugin } = require("webpack-manifest-plugin");
+const nodeExternals = require('@newrelic/webpack-plugin/lib/externals')
+const NewrelicWebpackPlugin = require('@newrelic/webpack-plugin/lib/NewrelicWebpackPlugin'
 
 // Input and output
 
@@ -114,6 +116,7 @@ module.exports = {
       bridgetownComponents: path.resolve(rootDir, "src", "_components")
     }
   },
+  externals: [nodeExternals()],
   plugins: [
     new MiniCssExtractPlugin({
       filename: "../css/[name].[contenthash].css",
@@ -121,6 +124,7 @@ module.exports = {
     new WebpackManifestPlugin({
       fileName: path.resolve(rootDir, ".bridgetown-webpack", "manifest.json"),
     }),
+    new NewrelicWebpackPlugin()
   ],
   module: {
     rules: [
