@@ -19,3 +19,5 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem "bridgetown", "~> 0.21.5"
 
 gem "bridgetown-seo-tag", "~> 5.0", :group => :bridgetown_plugins
+
+gem 'newrelic_rpm'
