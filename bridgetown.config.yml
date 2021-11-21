@@ -19,7 +19,7 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /assets/images/logo.png
+      image: /images/logo.png
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
