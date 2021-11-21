@@ -1,3 +1,5 @@
+const newrelic = require('newrelic')
+
 const concurrently = require('concurrently');
 
 // By default, configure Bridgetown to use port 4001 so Browsersync can use 4000

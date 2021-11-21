@@ -33,5 +33,9 @@
   },
   "resolutions": {
     "postcss-focus-within": "^4.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "newrelic": "^8.6.0"
   }
 }

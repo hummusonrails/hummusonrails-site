@@ -23,6 +23,9 @@ vendor
 # dotenv environment variables file
 .env
 
+# new relic
+newrelic_agent.log
+
 # Mac files
 .DS_Store
 
