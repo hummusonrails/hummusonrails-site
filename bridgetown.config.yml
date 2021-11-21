@@ -15,6 +15,12 @@
 # https://learnxinyminutes.com/docs/yaml/
 #
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/logo.png
+
 url: "" # the base hostname & protocol for your site, e.g. https://example.com
 
 permalink: pretty
