@@ -1,4 +1,4 @@
-require('newrelic');
+import newrelic from 'newrelic'
 import "index.css"
 
 // Import all javascript files from src/_components
