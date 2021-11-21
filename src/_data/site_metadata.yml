@@ -6,7 +6,9 @@
 
 title: Hummus on Rails
 tagline: Ruby, Ruby on Rails and Hummus all together
-twitter: https://www.twitter.com/rabbigreenberg
+twitter:
+  username: rabbigreenberg
+twitter_link: https://www.twitter.com/rabbigreenberg
 linkedin: https://www.linkedin.com/in/rabbigreenberg/
 github: https://github.com/bencgreenberg
 twitch: https://www.twitch.tv/hummusonrails
