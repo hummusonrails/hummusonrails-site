@@ -1,0 +1,15 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.metadata.myvariable }}.
+
+title: Hummus on Rails
+tagline: Ruby, Ruby on Rails and Hummus all together
+twitter: https://www.twitter.com/rabbigreenberg
+linkedin: https://www.linkedin.com/in/rabbigreenberg/
+github: https://github.com/bencgreenberg
+twitch: https://www.twitch.tv/hummusonrails
+reddit: https://www.reddit.com/r/hummusonrails/
+description: >-
+  Enjoy Ruby on Rails and do you like hummus? Welcome to Hummus on Rails where the two find a common home.
