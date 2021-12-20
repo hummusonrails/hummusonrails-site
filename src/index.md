@@ -59,5 +59,11 @@ layout: home
                 </div>
             </div>
         </div>
+        <div class="flex flex-col items-center w-screen"  id="archives-link">
+            <div>
+                <a class="place-content-center" href="https://www.getrevue.co/profile/hummusonrails">
+                    <p class="text-red-800 text-5xl font-bold">Past Issues</p>
+                </a>
+        </div>
     </div>
 </div>

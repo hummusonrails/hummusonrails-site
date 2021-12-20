@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.7",
-    "concurrently": "^5.2.0",
+    "concurrently": "^6.5.1",
     "css-loader": "^4.3.0",
     "esbuild": "^0.12.7",
     "esbuild-loader": "^2.13.1",
@@ -35,8 +35,6 @@
     "postcss-focus-within": "^4.0.0"
   },
   "dependencies": {
-    "@newrelic/webpack-plugin": "^0.4.2",
-    "dotenv": "^10.0.0",
-    "newrelic": "^8.6.0"
+    "dotenv": "^10.0.0"
   }
 }
