@@ -121,8 +121,7 @@ module.exports = {
     }),
     new WebpackManifestPlugin({
       fileName: path.resolve(rootDir, ".bridgetown-webpack", "manifest.json"),
-    }),
-    new NewrelicWebpackPlugin()
+    })
   ],
   module: {
     rules: [
