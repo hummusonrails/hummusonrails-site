@@ -36,7 +36,6 @@
   },
   "dependencies": {
     "@newrelic/webpack-plugin": "^0.4.2",
-    "dotenv": "^10.0.0",
-    "newrelic": "^8.6.0"
+    "dotenv": "^10.0.0"
   }
 }
