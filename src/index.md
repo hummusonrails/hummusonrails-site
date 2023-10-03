@@ -13,6 +13,7 @@ layout: home
     <a href="https://github.com/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">GitHub</a>
     <a href="https://twitter.com/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Twitter</a>
     <a href="https://www.twitch.tv/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Twitch</a>
-    <a href="https://www.linkedin.com/in/rabbigreenberg/" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/hummusonrails/" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">LinkedIn</a>
+    <a href="https://www.yalladevrel.com" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Yalla, DevRel LLC</a>
   </div>
 </div>
