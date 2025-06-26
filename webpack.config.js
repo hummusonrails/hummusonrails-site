@@ -31,15 +31,21 @@ const performanceConfig = {
   }
 }
 
-// Ensure manifest is written to root directory for Bridgetown integration
+// Override manifest plugin to write to root directory where Bridgetown expects it
 const path = require('path')
+const { WebpackManifestPlugin } = require('webpack-manifest-plugin')
 const manifestConfig = {
+  output: {
+    publicPath: '/_bridgetown/static/js/'
+  },
   plugins: [
-    new (require('webpack-manifest-plugin').WebpackManifestPlugin)({
-      fileName: path.resolve(__dirname, '.bridgetown-webpack', 'manifest.json')
+    new WebpackManifestPlugin({
+      fileName: path.resolve(__dirname, '.bridgetown-webpack', 'manifest.json'),
+      publicPath: '/_bridgetown/static/'
     })
   ]
 }
+
 
 ////////////////////////////////////////////////////////
 
