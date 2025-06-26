@@ -22,10 +22,25 @@ var config = require("./config/webpack.defaults.js")
 //    config = merge(config, customConfig)
 //  ```
 
+// Performance configuration to suppress warnings for large CSS bundles
+const performanceConfig = {
+  performance: {
+    maxAssetSize: 1000000, // 1MB
+    maxEntrypointSize: 1000000, // 1MB
+    hints: 'warning'
+  }
+}
 
-
-
+// Ensure manifest is written to root directory for Bridgetown integration
+const path = require('path')
+const manifestConfig = {
+  plugins: [
+    new (require('webpack-manifest-plugin').WebpackManifestPlugin)({
+      fileName: path.resolve(__dirname, '.bridgetown-webpack', 'manifest.json')
+    })
+  ]
+}
 
 ////////////////////////////////////////////////////////
 
-module.exports = config
+module.exports = merge(config, performanceConfig, manifestConfig)

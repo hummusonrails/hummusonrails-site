@@ -120,7 +120,7 @@ module.exports = {
       filename: "../css/[name].[contenthash].css",
     }),
     new WebpackManifestPlugin({
-      fileName: path.resolve(rootDir, ".bridgetown-webpack", "manifest.json"),
+      fileName: ".bridgetown-webpack/manifest.json",
     })
   ],
   module: {
