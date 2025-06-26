@@ -11,7 +11,8 @@ layout: home
     <a href="https://www.bengreenberg.dev/" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Website</a>
     <a href="https://www.bengreenberg.dev/blog" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Blog</a>
     <a href="https://github.com/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">GitHub</a>
-    <a href="https://twitter.com/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Twitter</a>
+    <a href="https://x.com/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">X</a>
+    <a href="https://farcaster.xyz/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Farcaster</a>
     <a href="https://www.twitch.tv/hummusonrails" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Twitch</a>
     <a href="https://www.linkedin.com/in/hummusonrails/" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">LinkedIn</a>
     <a href="https://www.yalladevrel.com" class="block bg-white text-black p-3 mb-3 rounded-md hover:bg-opacity-90">Yalla, DevRel LLC</a>
